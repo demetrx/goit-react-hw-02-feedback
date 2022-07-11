@@ -1,6 +1,7 @@
 import styled from '@emotion/styled';
 
-export const Input = styled.input`
+export const Button = styled.button`
+  cursor: pointer;
   &:not(:last-child) {
     margin-right: 10px;
   }

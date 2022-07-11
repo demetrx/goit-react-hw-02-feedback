@@ -4,12 +4,6 @@ import FeedbackOptions from './FeedbackOptions/FeedbackOptions';
 import Statistics from './Statistics/Statistics';
 import Notification from './Notification/Notification';
 
-const Output = {
-  good: 'Good',
-  neutral: 'Neutral',
-  bad: 'Bad',
-};
-
 const INITIAL_STATE = {
   good: 0,
   neutral: 0,
@@ -52,7 +46,7 @@ export class App extends Component {
           <FeedbackOptions
             options={options}
             onLeaveFeedback={this.giveFeedbackHandler}
-            output={Output}
+            // output={Output}
           />
         </Section>
 
